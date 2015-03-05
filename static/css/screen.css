@@ -199,10 +199,11 @@ sub {
     border: 1px solid #ccc;
     border-radius: 2px;
     padding: .8em;
-    font-size: 12px;
-    font-family: Monospace;
-    line-height: 1.1em;
+    font-size: 13px;
+    font-family: "Consolas","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
     overflow: auto;
+    letter-spacing: 0.015em;
+    line-height: 120%;
 }
 
 form.inline_edit {
