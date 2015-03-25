@@ -37,9 +37,6 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: block;
 }
-body {
-    line-height: 1;
-}
 ol, ul {
     list-style: none;
 }
@@ -57,8 +54,8 @@ table {
 }
 
 body {
-    font-family: Georgia, serif;
-    font-size: 16px;
+    font-family: sans-serif;
+    font-size: 17px;
     line-height: 1.5em;
     color: #444;
 }
@@ -95,8 +92,17 @@ h1, h2, h3 {
     line-height: 1em;
     margin: 1em 0;
 }
+h4 {
+    margin-top: 4em;
+}
+h5 {
+    margin-top: 3em;
+}
+h6 {
+    margin-top: 2em;
+}
 
-img, p, .post > .highlight, .highlighttable, h4, h5, h6 {
+img, p, .post > .highlight, .highlighttable{
     margin-top: 1.2em;
 }
 
@@ -312,13 +318,13 @@ header h2 {
 }
 
 code {
-    background-color: #F9F2F4;
+    background-color: #f0f0f0;
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
     box-sizing: border-box;
-    color: #C7254E;
+    color: #666666;
     font-family: Monaco,Menlo,Consolas,"Courier New",monospace;
     font-size: 12.6px;
     line-height: 18px;
