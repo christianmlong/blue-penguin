@@ -162,10 +162,10 @@ blockquote {
 }
 .linenos {
     border-radius: 3px 0px 0px 3px;
-    background-color: #073642;
-    border-right: 1px solid #00232C;
-    color: #586E75;
-    text-shadow: 0px -1px #021014;
+    background-color: #e8e8e8;
+    /* border-right: 1px solid #00232C; */
+    color: #7998ae;
+    text-shadow: 0px -1px #16aed7;
 }
 td.code {
     width: 100%;
