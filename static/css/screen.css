@@ -73,6 +73,11 @@ a {
     color: #15A9DB;
 }
 
+a:hover {
+    background-color: #f0f0f0;
+    color: #1295C1;
+}
+
 ul {
     list-style: outside disc;
 }
