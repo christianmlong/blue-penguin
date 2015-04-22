@@ -206,6 +206,14 @@ img {
     margin-right: auto;
 }
 
+img.no_round {
+    border-radius: 0em;
+}
+
+img.no_shadow {
+    box-shadow: none;
+}
+
 /*sub and sup stolen from Twitter bootstrap.*/
 sub, sup {
     position: relative;
